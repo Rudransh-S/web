@@ -1,0 +1,70 @@
+
+.login-container{
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: black;
+    margin: auto;
+    text-align: center;
+    width: 700px;
+    height: 350px;
+    background-color: #ffffff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border: #627c85;
+    padding-top: 10px;
+
+
+}
+.userinput{
+    color: aliceblue;
+}
+.input-box{
+    color: black;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    border: black solid ;
+    margin-top: 20px;
+}
+::placeholder{
+    color: rgb(97, 97, 97);
+
+}
+
+#input-box-username{
+    width:400px;
+    padding-left: 10px;
+}
+#input-box-password{
+    width:400px;
+    padding-left: 10px;
+}
+.sign_up{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.sign_link{
+    text-decoration: none;
+    color: #0067b8;
+}
+
+.userinput button{
+    height: 50px;
+    width: 100px;
+    background-color: #0067b8;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 20px;
+    border-color: #0067b8;
+    outline: none;
+}
+.userinput :focus{
+    outline-width: none;
+    border: 2px solid #0067b8;
+}

@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to right,white , #627C85  );
+}
+.header{
+    height: 100px;
+}
+#display{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#time{
+    font-size: 100px;
+}
+#search_bar{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    margin-left: 20px;
+    
+}
+#search_button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+::placeholder{
+    color: black;
+}
+#bottom{
+    margin-top: 400px;
+    
+}
+#all-link{
+    text-decoration: none;
+    color: #0067b8;
+}

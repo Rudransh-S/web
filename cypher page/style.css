@@ -1,0 +1,91 @@
+#cypher-input-box{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    background-color: #adc2c9;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    border-radius: 20px;
+
+}
+
+.input-box{
+    height: 60px;
+    width: 300px;
+    background-color: #adc2c9;
+    text-align: center;
+    border: black solid;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+::placeholder{
+    color: rgb(61, 59, 59);
+    font-size: 20px;
+}
+.input-box:focus{
+    border-color: rgb(255, 255, 255);
+    outline: none;
+    
+}
+#cypher-button{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #a2e8dd;
+    font-size: 15px;
+
+}
+#cypher-button:hover{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+#result{
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.empty-container{
+    text-align: center;
+}
+#coder{
+    margin-top: 40px;
+    margin-right: 30px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #a2e8dd;
+}
+#coder:hover{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+#decoder:hover{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+#decoder{
+    margin-top: 40px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #a2e8dd;
+}
+#result{
+    width: 300px;
+    height: 60px;
+    background-color: #adc2c9;
+    border-radius: 10px;
+    border:#adc2c9 solid;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#result:focus{
+    border-color: #adc2c9;
+    outline: none;
+}

@@ -1,0 +1,63 @@
+#sign_up_box{
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.userinput{
+    color: black;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    border: black solid ;
+    margin-top: 20px;
+}
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+#username{
+    margin-top: 20px;
+    padding-left: 10px;
+    width:400px;
+}
+#password{
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 400px;
+}
+#terms_and_con{
+   margin-top: 20px;
+   font-size: 20px;
+
+}
+#label_for_checkbox{
+    margin-top: 15px;
+    height: 20;
+}
+#login_link{
+    text-decoration: none;
+    color: #0067b8;
+}
+#sign_up_button{
+    height: 50px;
+    width: 130px;
+    background-color: #0067b8;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 20px;
+    border-color: #0067b8;
+    outline: none;
+}

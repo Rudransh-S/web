@@ -1,0 +1,78 @@
+body{
+    background-color: #dedede;
+    margin: 0px;
+}
+#data-container{
+    background-color: rgb(222, 222, 222);
+    height: 80px;
+    /* border-radius: 10px; */
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+#data-container-1{
+    width: 300px;
+    display:inline-block ;
+    font-size: 80px;
+    margin-right: 440px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#data-container-2{
+    width: 150px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo-img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+#home-button{
+    background-color: rgb(222, 222, 222);
+    width: 80px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 520px;
+    margin-top: 2px;
+}
+.head-bar{
+    background-color:white;
+    quotes: 'rgb(242, 237, 237)';
+    height: 40px;
+    padding-top: 20px;
+}
+#cypher-box{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    display: inline-block;
+}
+#search_home_page{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30px;
+    display: inline-block;
+}
+.all-link{
+    text-decoration: none;
+    color: black;
+}
+#login-box{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 950px;
+    display: inline-block;
+}
+
+.empty-container{
+    height: 100px;
+}
+#text-editor{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin-left: 50px;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../common/common.js"></script>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="editor-bar">
+        <input type="text" id="document-name">
+        <div id="font-family">
+            <select name="font" id="font">
+                <option value="Times-new-roman" class="Times-new-roman">Times new romam</option>
+                <option value="Courier-new" id="Courier-new">Courier New</option>
+            </select>
+        </div>
+        
+        <select name="font-size" id="font-size">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+    <form method="post" id="text-form">
+        <div id="text-container">
+            <textarea name="text" id="text" required ></textarea>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+    <div id="responseMessage" style="margin-top: 20px;"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#text-container{
+    text-align: center;
+}
+
+#text{
+    background-color: rgb(240, 240, 240);
+    height: 200px;
+    width: 400px;
+}
+#editor-bar{
+    margin: 0px 0px 10px 0px;
+    background-color: #6a878d;
+    height: 30px;
+    padding-top: 10px;
+
+}
+#document-name{
+    margin-left: 20px;
+    display: inline-block;
+    background-color: #dedede;
+    outline: none;
+    border: none;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 2px;
+
+}
+#font-family{
+    display: inline-block;
+    background-color: #dedede;
+    margin-left: 20px;
+}
+#font{
+    font-family: 'Times New Roman', Times, serif;
+    background: #dedede;
+}
+#font-size{
+    margin-left: 20px;
+}
+#Times-new-roman{
+    font-family: 'Times New Roman', Times, serif;
+}
+#Courier-new{
+    font-family: 'Courier New', Courier, monospace;
+}
