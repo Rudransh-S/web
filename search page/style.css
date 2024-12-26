@@ -1,5 +1,7 @@
 body{
-    background-image: linear-gradient(to right,white , #627C85  );
+    background-image: url('../1341416\ \(1\).png');
+    background-size: cover;
+
 }
 .header{
     height: 100px;
@@ -11,6 +13,11 @@ body{
 }
 #time{
     font-size: 100px;
+}
+#img-background{
+    width: 512px;
+    height: auto;
+
 }
 #search_bar{
     width: 400px;

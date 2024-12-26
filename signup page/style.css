@@ -52,12 +52,13 @@
 #sign_up_button{
     height: 50px;
     width: 130px;
-    background-color: #0067b8;
+    background-color: grey;
     border-radius: 5px;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     margin-top: 20px;
-    border-color: #0067b8;
+    border: none;
     outline: none;
+    b
 }

@@ -3,13 +3,14 @@ $(document).ready(function () {
         event.preventDefault();
 
         var formData = $(this).serialize();
-
+        
         $.ajax({
             url: 'process.php', // Ensure this points to your PHP file
             type: "POST",
             data: formData,
             dataType: 'json',
             success: function (response) {
+                console.log('2');
                 if (response.status === 'success') {
                     $("#responseMessage").html('<p style="color:green;">' + response.message + '</p>');
                     //$('#text-form')[0].reset(); // Clear the form

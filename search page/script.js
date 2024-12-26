@@ -34,4 +34,30 @@ function Updatetime(){
 }
 setInterval(Updatetime,1000);
 
+document.querySelector('#search_button').addEventListener('click',function(event){
+    event.preventDefault();
+    qurry=document.getElementById('search_bar').value;
+    url='https://www.google.com/search?q='+qurry;
+    //window.open(url,'_self');
+    window.location.href = url;
+    //console.log(url);
 
+   
+})
+var inputs = document.querySelectorAll('#search_bar');
+
+inputs.forEach(input => {
+     input.addEventListener('keydown', function(event){
+         if (event.key === 'Enter'){
+            event.preventDefault();
+            qurry=document.getElementById('search_bar').value;
+            url='https://www.google.com/search?q='+qurry;
+            //window.open(url,'_self');
+            window.location.href = url;
+            //console.log(url);
+        
+     }
+     // for checking if the checked box is checked or not while entering words
+     //console.log('5')
+ });
+ });
