@@ -1,3 +1,8 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url('../1341416\ \(1\).png');
     background-size: cover;
@@ -6,10 +11,62 @@ body{
 .header{
     height: 100px;
 }
+ul{
+    list-style: none;
+    color: white;
+
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px 10px 20px; /* hear we chaneg the length of the top main hover bar*/
+    text-align: center;
+    width: 200px;
+    
+}
+ul li ul.dropdown li{
+    display: block;
+    
+
+}
+ul li ul.dropdown{
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 999; 
+    background: rgb(35, 35, 35);
+
+
+}
+ul li a:hover{
+    background: rgb(90, 89, 89);
+}
+ul li:hover ul.dropdown{
+    display: block ;
+
+}
+#top_bar{
+    color: white;
+    height: 47px;
+    width: auto;
+    backdrop-filter: blur(10px);
+    top: 0;
+    right: 0;
+    padding: 10px 0px 0px 15px;
+}
+
 #display{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+
 }
 #time{
     font-size: 100px;
