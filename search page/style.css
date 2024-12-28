@@ -11,16 +11,16 @@ body{
 .header{
     height: 100px;
 }
-ul{
+#container_1{
     list-style: none;
     color: white;
 
 }
-ul li {
+.text_container_1{
     display: inline-block;
     position: relative;
 }
-ul li a{
+.text_container_link_1{
     display: block;
     text-decoration: none;
     color: white;
@@ -31,12 +31,12 @@ ul li a{
     width: 200px;
     
 }
-ul li ul.dropdown li{
+.text_container_2{
     display: block;
     
 
 }
-ul li ul.dropdown{
+#container_2{
     display: none;
     width: 100%;
     position: absolute;
@@ -45,10 +45,10 @@ ul li ul.dropdown{
 
 
 }
-ul li a:hover{
+.text_container_link_1:hover{
     background: rgb(90, 89, 89);
 }
-ul li:hover ul.dropdown{
+.text_container_1:hover #container_2{
     display: block ;
 
 }

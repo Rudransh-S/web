@@ -1,5 +1,5 @@
 
-weak=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+weak=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 months=['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec'];
 // Divide Time with a yea
 //let years = Math.round(d.getTime() / year);
@@ -10,7 +10,7 @@ months=['Jan','Feb','Mar','Apr','May','June','July','Aug','Sep','Oct','Nov','Dec
 //let months=date[4]+date[5]+date[6];
 function Updatetime(){
     const d = new Date();
-    let dayofweak=Number(d.getDay())-1;
+    let dayofweak=Number(d.getDay());
     date=String(d); 
     days=weak[dayofweak];
     year=String(d.getFullYear());
