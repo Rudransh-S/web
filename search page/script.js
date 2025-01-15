@@ -37,9 +37,18 @@ setInterval(Updatetime,1000);
 document.querySelector('#search_button').addEventListener('click',function(event){
     event.preventDefault();
     qurry=document.getElementById('search_bar').value;
-    url='https://www.google.com/search?q='+qurry;
-    //window.open(url,'_self');
-    window.location.href = url;
+    hasSpace = /\s/.test(qurry)
+    if (hasSpace=false || qurry.indexOf('.')>-1){
+        url='https://'+qurry;    
+        //window.open(url,'_self');
+        window.location.href = url;            
+        }
+    else{
+        url='https://www.google.com/search?q='+qurry;
+        //window.open(url,'_self');
+        window.location.href = url;
+        }
+    
     //console.log(url);
 
    
@@ -51,9 +60,19 @@ inputs.forEach(input => {
          if (event.key === 'Enter'){
             event.preventDefault();
             qurry=document.getElementById('search_bar').value;
-            url='https://www.google.com/search?q='+qurry;
-            //window.open(url,'_self');
-            window.location.href = url;
+            hasSpace = /\s/.test(qurry)
+            if (hasSpace=false || qurry.indexOf('.')>-1){
+                url='https://'+qurry;
+                //window.open(url,'_self');
+                window.location.href = url;
+            }
+            else{
+                url='https://www.google.com/search?q='+qurry;
+                //window.open(url,'_self');
+                window.location.href = url;
+            }
+
+            
             //console.log(url);
         
      }

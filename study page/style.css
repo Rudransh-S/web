@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    background-image: url(../japan-background-digital-art_23-2151546131.avif);
+    background-size: cover;
+}
+.header{
+    height: 100px;
+}
+#container_1{
+    list-style: none;
+    color: white;
+
+}
+.text_container_1{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+}
+.text_container_link_1{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px 10px 20px; /* hear we chaneg the length of the top main hover bar*/
+    text-align: center;
+    width: 200px;
+    
+}
+.text_container_2{
+    display: block;
+}
+#container_2{
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 999; 
+    background: rgb(35, 35, 35);
+
+
+}
+.text_container_link_1:hover{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    color: black;
+}
+.text_container_1:hover #container_2{
+    display: block ;
+
+}
+
+
+.head_bar{
+    color: white;
+    height: 47px;
+    width: auto;
+    backdrop-filter: blur(10px);
+    top: 0;
+    right: 0;
+    padding: 10px 0px 0px 15px;
+}
+.Course{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+
+}
+.line{
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-top: 3px solid white;
+    opacity: .7;
+    
+}
+.all_link{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+
+}
+.all_link:hover{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    color: black;
+
+}
+.content{
+    font-size: 20px;
+
+}
+.text_content{
+    display: inline-block;
+}

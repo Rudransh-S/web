@@ -8,9 +8,6 @@ body{
     background-size: cover;
 
 }
-.header{
-    height: 100px;
-}
 #container_1{
     list-style: none;
     color: white;
@@ -60,6 +57,8 @@ body{
     top: 0;
     right: 0;
     padding: 10px 0px 0px 15px;
+    margin-bottom: 100px;
+
 }
 
 #display{
@@ -99,10 +98,10 @@ body{
     color: black;
 }
 #bottom{
-    margin-top: 400px;
+    margin-top: 300px;
     
 }
 #all-link{
     text-decoration: none;
-    color: #0067b8;
+    color: #ffffff;
 }
