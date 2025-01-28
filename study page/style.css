@@ -66,36 +66,48 @@ body{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
-    color: white;
+    color: black;
     margin-top: 20px;
+
 
 }
 .line{
     width: 90%;
     margin-left: 70px;
     margin-top: 20px;
-    border-top: 3px solid white;
-    opacity: .7;
+    border-top: 3px solid black;
+    opacity: .6;
     
 }
 .all_link{
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
 
 }
 .all_link:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(135, 135, 135);
     display: block;
-    color: black;
+    color: white;
 
 }
 .content{
     font-size: 20px;
 
+
 }
 .text_content{
     display: inline-block;
+
+}
+#background_of_container{
+    background-color: white;
+    margin: 50px 100px 0px 100px;
+    padding: 5px 0px 20px 0px;
+    border-radius: 10px;
+    opacity: .8;
+    text-align: center;
+
 }
