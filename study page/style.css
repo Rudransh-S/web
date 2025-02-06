@@ -18,6 +18,7 @@ body{
     display: inline-block;
     position: relative;
     border-radius: 10px;
+    z-index: 10;
 }
 .text_container_link_1{
     display: block;
@@ -28,10 +29,12 @@ body{
     padding: 10px 20px 10px 20px; /* hear we chaneg the length of the top main hover bar*/
     text-align: center;
     width: 200px;
+
     
 }
 .text_container_2{
     display: block;
+
 }
 #container_2{
     display: none;
@@ -41,14 +44,18 @@ body{
     background: rgb(35, 35, 35);
 
 
+
 }
 .text_container_link_1:hover{
     background-color: rgb(255, 255, 255);
     display: block;
     color: black;
+
+    
 }
 .text_container_1:hover #container_2{
     display: block ;
+    z-index: -1;
 
 }
 
